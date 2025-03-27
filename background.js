@@ -32,6 +32,7 @@ const validateExtensionID = (id) => {
 };
 
 const capturePHEvent = (eventName, props = {}) => {
+    // "Disable" logging other extensions' events
     if (props['Extension ID'] && !validateExtensionID(props['Extension ID']))
         return;
 
