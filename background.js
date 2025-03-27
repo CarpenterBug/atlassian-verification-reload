@@ -1,6 +1,8 @@
 import Config from './config.js';
 import { getName, getOS, getLanguage, showAlert } from './utils/browser.js';
-import posthog from './node_modules/posthog-js/dist/module.full.no-external.js';
+import posthog from './node_modules/posthog-js/dist/module.no-external.js';
+import './node_modules/posthog-js/dist/array.full.no-external.js';
+import './node_modules/posthog-js/dist/recorder.js';
 
 const manifest = chrome.runtime.getManifest();
 let browserData = {};
