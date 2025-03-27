@@ -50,7 +50,13 @@ chrome.action.onClicked.addListener((tab) => {
     if (!isPageLoaded) return;
 
     const currentHref = new URL(tab.url).href;
-    const prefixToRemove = 'https://id.atlassian.com/step-up/start?continue=';
+    const atlassianPrefixes = [
+        'https://id.atlassian.com/step-up/start?continue=',
+        'https://id.atlassian.com/step-up/sso?continue=',
+    ];
+    const prefixToRemove = atlassianPrefixes.find((prefix) =>
+        currentHref.startsWith(prefix)
+    );
 
     if (currentHref.startsWith(prefixToRemove)) {
         const encodedPart = currentHref.replace(prefixToRemove, '');
