@@ -1,4 +1,4 @@
-# Jira Confluence decode and reload
+# Atlassian Verification Reload
 
 A simple Chrome, Edge and Brave (Firefox support coming soon) browser extension to reload Jira and Confluence pages with request one-time passcode modal after successful verification.
 
@@ -7,8 +7,8 @@ A simple Chrome, Edge and Brave (Firefox support coming soon) browser extension 
 1. Clone this repo
 
 ```
-git clone https://github.com/CarpenterBug/jira-confluence-decode-and-reload.git
-cd jira-confluence-decode-and-reload
+git clone https://github.com/CarpenterBug/atlassian-verification-reload
+cd atlassian-verification-reload
 npm install
 
 // Rename "config.js_example" to "config.js"
