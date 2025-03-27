@@ -1,8 +1,8 @@
 {
-    "name": "Jira Confluence decode and reload",
-    "short_name": "JCdnr",
+    "name": "Atlassian Verification Reload",
+    "short_name": "AVR",
     "description": "Reload Jira and Confluence pages with identity verification modal after successful verification",
-    "homepage_url": "https://github.com/CarpenterBug/jira-confluence-decode-and-reload#readme",
+    "homepage_url": "https://github.com/CarpenterBug/atlassian-verification-reload#readme",
     "version": "1.0",
     "manifest_version": 3,
     "author": "sulk-zero-dig@duck.com",
