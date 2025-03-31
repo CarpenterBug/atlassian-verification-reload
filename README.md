@@ -1,6 +1,8 @@
 # Atlassian Verification Reload
 
-A simple Chrome, Edge and Brave (Firefox support coming soon) browser extension to reload Jira and Confluence pages with request one-time passcode modal after successful verification.
+A simple browser extension to reload Atlassian's Jira and Confluence verification pages after a successful verification.
+
+Once your Atlassian session expires, verify your identity once and click the extension to reload all other "Verify your identity" pages to skip the verification process again and again.
 
 # Installation
 
@@ -28,26 +30,19 @@ npm install
 5. Select extension folder
 6. Pin extension for easy access
 
-# Info
+# Details
 
-## TL;DR
-
-Once you verified your identity, reload the tabs with the "request one-time passcode" modal to avoid receiving and entering a new verification code for every open tab.
+Depending on your organisation's Atlassian security and access policies, more precisely the [session expiration](https://support.atlassian.com/security-and-access-policies/docs/update-verification-frequency/), Atlassian will expire your session and force you to [verify your identity](https://support.atlassian.com/atlassian-account/docs/verify-your-identity/) again every X hours by sending you an email or MFA prompt:
 ![Tabs with Passcode](./images/screenshots/passcode_tabs.png)
 
-## Current flow
-
-Depending on your organization's Atlassian security and access policies, more precisely the [session expiration](https://support.atlassian.com/security-and-access-policies/docs/update-verification-frequency/), Atlassian will expire your session and force you to [verify your identity](https://support.atlassian.com/atlassian-account/docs/verify-your-identity/) to access Jira and Confluence again by sending you an email with a six-digit verification code. A session can be between 15 minutes and 30 days long.
-
-Once the session has expired, you will be prompted with a similar screen and an email with the new verification code will be sent automatically
+Even after the verification, if you have multiple Jira / Confluence tabs open, these might still be “locked”:
 ![Verify](./images/screenshots/verify.png)
-
-However, if you have multiple Jira/Confluence tabs open, even after verifying your identity, all other tabs will still request a one-time passcode
 ![Passcode](./images/screenshots/passcode.png)
+![Verify with SSO](./images/screenshots/sso_verify.png)
 
-Requesting a new passcode or reloading the page will redirect you to the verification page again and force you to enter a new verification code.
+Clicking “Verify”, "Request passcode" or reloading the page will force you to verify your identity again.
 
-With this extension, once you verify your identity, on all the pages with the one-time passcode modal, you just have to click the extension icon, the page will reload and you are good to go.
+With this extension, once you verify your identity, you will be able to reload the page and skip the verification progress again and again.
 
 # Privacy policy
 
