@@ -1,9 +1,9 @@
 {
     "name": "Atlassian Verification Reload",
     "short_name": "AVR",
-    "description": "Reload Jira and Confluence pages with identity verification modal after successful verification",
+    "description": "A simple browser extension to reload Atlassian's Jira and Confluence verification pages after a successful verification.",
     "homepage_url": "https://github.com/CarpenterBug/atlassian-verification-reload#readme",
-    "version": "1.0",
+    "version": "1.0.0",
     "manifest_version": 3,
     "author": "sulk-zero-dig@duck.com",
     "action": {
