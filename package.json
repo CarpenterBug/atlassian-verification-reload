@@ -1,7 +1,7 @@
 {
     "name": "atlassian-verification-reload",
     "version": "1.0.0",
-    "description": "A simple Chrome, Edge and Brave (Firefox support coming soon) browser extension to reload Jira and Confluence pages with request one-time passcode modal after successful verification.",
+    "description": "A simple browser extension to reload Atlassian's Jira and Confluence verification pages after a successful verification.",
     "main": "background.js",
     "repository": {
         "type": "git",
@@ -14,6 +14,7 @@
         "Atlassian",
         "Jira",
         "Confluence",
+        "Verification",
         "Chrome",
         "Brave",
         "Edge",
