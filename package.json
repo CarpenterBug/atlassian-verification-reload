@@ -33,6 +33,6 @@
     },
     "homepage": "https://github.com/CarpenterBug/atlassian-verification-reload#readme",
     "dependencies": {
-        "posthog-js": "^1.234.9"
+        "posthog-js": "^1.236.0"
     }
 }
