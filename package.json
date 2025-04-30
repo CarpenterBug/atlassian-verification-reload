@@ -1,0 +1,47 @@
+{
+    "name": "atlassian-verification-reload",
+    "version": "1.0.0",
+    "description": "Reload Atlassian's Jira and Confluence verification pages after a successful verification.",
+    "main": "background.js",
+    "author": {
+        "name": "CarpenterBug",
+        "email": "sulk-zero-dig@duck.com",
+        "url": "https://github.com/CarpenterBug"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CarpenterBug/atlassian-verification-reload.git"
+    },
+    "homepage": "https://github.com/CarpenterBug/atlassian-verification-reload#readme",
+    "bugs": {
+        "url": "https://github.com/CarpenterBug/atlassian-verification-reload/issues"
+    },
+    "license": "ISC",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "clean": "rm -rf node_modules dist dist-zip"
+    },
+    "type": "module",
+    "devDependencies": {
+        "vite": "^6.3.4",
+        "vite-plugin-static-copy": "^2.3.1",
+        "vite-plugin-zip-pack": "^1.2.4"
+    },
+    "dependencies": {
+        "posthog-js": "^1.237.0"
+    },
+    "keywords": [
+        "Atlassian",
+        "Jira",
+        "Confluence",
+        "Verification",
+        "Chrome",
+        "Brave",
+        "Edge",
+        "Chromium",
+        "Browser",
+        "Extension"
+    ]
+}
