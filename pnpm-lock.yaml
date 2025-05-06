@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       posthog-js:
-        specifier: ^1.237.0
-        version: 1.237.0
+        specifier: ^1.240.0
+        version: 1.240.0
     devDependencies:
       vite:
-        specifier: ^6.3.4
-        version: 6.3.4
+        specifier: ^6.3.5
+        version: 6.3.5
       vite-plugin-static-copy:
         specifier: ^2.3.1
-        version: 2.3.1(vite@6.3.4)
+        version: 2.3.1(vite@6.3.5)
       vite-plugin-zip-pack:
         specifier: ^1.2.4
-        version: 1.2.4(vite@6.3.4)
+        version: 1.2.4(vite@6.3.5)
 
 packages:
 
@@ -427,8 +427,8 @@ packages:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.237.0:
-    resolution: {integrity: sha512-DyZfwDRz405cKKskL22CXvc9EpkBmuM9lCOYsZO3L1/zXu7IGiP9nNlLaxlzy7K/8mHxQ3szoy/DBSw/zXL1pw==}
+  posthog-js@1.240.0:
+    resolution: {integrity: sha512-zZhedVycGracBMWVRvWJMkB2EiB/dUoe/eM+CsFCnda/PN3Se+V7a6CLGuLZKLF9EfHswCxxU/PIxgDrhbAgjQ==}
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
       rrweb-snapshot: 2.0.0-alpha.17
@@ -505,8 +505,8 @@ packages:
     peerDependencies:
       vite: '>=2.x'
 
-  vite@6.3.4:
-    resolution: {integrity: sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==}
+  vite@6.3.5:
+    resolution: {integrity: sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -853,7 +853,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.237.0:
+  posthog-js@1.240.0:
     dependencies:
       core-js: 3.42.0
       fflate: 0.4.8
@@ -935,21 +935,21 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-static-copy@2.3.1(vite@6.3.4):
+  vite-plugin-static-copy@2.3.1(vite@6.3.5):
     dependencies:
       chokidar: 3.6.0
       fast-glob: 3.3.3
       fs-extra: 11.3.0
       p-map: 7.0.3
       picocolors: 1.1.1
-      vite: 6.3.4
+      vite: 6.3.5
 
-  vite-plugin-zip-pack@1.2.4(vite@6.3.4):
+  vite-plugin-zip-pack@1.2.4(vite@6.3.5):
     dependencies:
       jszip: 3.10.1
-      vite: 6.3.4
+      vite: 6.3.5
 
-  vite@6.3.4:
+  vite@6.3.5:
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
